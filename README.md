@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/AlexanderC04/huddle-landing-page-with-curved-sections.git)
+- Live Site URL: (https://alexanderc04.github.io/huddle-landing-page-with-curved-sections/)
 
 ## My process
 
