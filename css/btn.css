@@ -1,0 +1,36 @@
+.btn {
+  text-decoration: none;
+  border-radius: 6rem;
+  font-weight: 700;
+}
+.btn--white {
+  color: var(--Pink);
+  border: 1px solid var(--Pink);
+  background-color: #ffff;
+  padding: 0.3rem 1rem;
+  font-size: 0.6rem;
+}
+.btn--white:hover {
+  opacity: 0.5;
+}
+.btn--pink {
+  background-color: var(--Pink);
+  color: #ffff;
+  box-shadow: var(--VeryDarkCyan) 0px 8px 13px -11px;
+  font-weight: 700;
+  padding: 0.7rem 2.6rem;
+  font-size: 0.8rem;
+}
+.btn--pink:hover {
+  opacity: 0.5;
+}
+@media screen and (min-width: 500px) {
+  .btn--white {
+    padding: 0.6rem 2.2rem;
+    font-size: 1.2rem;
+  }
+  .btn--pink {
+    padding: 1.8rem 6rem;
+    font-size: 1.1rem;
+  }
+}

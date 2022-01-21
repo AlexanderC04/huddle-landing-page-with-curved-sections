@@ -1,0 +1,23 @@
+.bg-holder {
+  margin: 0;
+  width: 100%;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg__mobile {
+  display: block;
+}
+.bg__desktop {
+  display: none;
+}
+@media screen and (min-width: 500px) {
+  .bg__mobile {
+    display: none;
+  }
+  .bg__desktop {
+    display: block;
+  }
+}

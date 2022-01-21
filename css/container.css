@@ -1,0 +1,142 @@
+.container__info {
+  text-align: center;
+  padding: 1.4rem;
+}
+.container__title {
+  color: var(--VeryDarkCyan);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 1.1rem;
+}
+.container__description {
+  color: var(--VeryDarkCyan);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.container__img-holder {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.container__img {
+  width: 70%;
+  height: auto;
+}
+.container--build {
+  margin-bottom: 1.4rem;
+}
+.container--build .container__info {
+  padding: 1.6rem;
+  margin-bottom: 5.4rem;
+}
+.container--build .container__title {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin-bottom: 1.4rem;
+}
+.container--build .container__description {
+  margin-bottom: 3.9rem;
+}
+.container--build .container__img-holder {
+  margin-bottom: 7.5rem;
+}
+.container--build .container__img {
+  width: 80%;
+}
+.container--grow-together {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.container--flowing-conversations {
+  margin-top: 8.6rem;
+  margin-bottom: 6rem;
+}
+.container--your-users {
+  padding-top: 1rem;
+  padding-bottom: 5.8rem;
+}
+.container--grow-together,
+.container--your-users {
+  background-color: var(--VeryPaleBlue);
+}
+.container--sign-up {
+  text-align: center;
+  margin-top: 4.2rem;
+  margin-bottom: 16.4rem;
+}
+.container--sign-up .container__title {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 500px) {
+  .container--flowing-conversations,
+  .container--grow-together,
+  .container--your-users {
+    display: flex;
+    padding: 3rem 7.4%;
+  }
+  .container--flowing-conversations {
+    padding: 2rem 7.4%;
+  }
+  .container--grow-together .container__img-holder,
+  .container--your-users .container__img-holder {
+    order: 2;
+  }
+  .container__img-holder {
+    margin-bottom: 0;
+  }
+  .container__info {
+    text-align: start;
+    align-self: center;
+    max-width: 32rem;
+  }
+  .container__img {
+    width: 80%;
+    height: auto;
+  }
+  .container__title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .container__description {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  /* container--build */
+  .container--build {
+    margin-bottom: 8rem;
+  }
+  .container--build .container__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: none;
+    margin-bottom: 7rem;
+  }
+  .container--build .container__title {
+    font-size: 3rem;
+  }
+  .container--build .container__description {
+    font-size: 1.4rem;
+    place-self: center;
+    max-width: 42rem;
+    width: 90%;
+    margin-bottom: 5rem;
+  }
+  .container--build .container__img {
+    margin-bottom: 0;
+    width: 72%;
+  }
+  /* container--sign-up */
+  .container--sign-up {
+    text-align: center;
+    margin-top: 10.6rem;
+    margin-bottom: 13rem;
+  }
+  .container--sign-up .container__title {
+    font-size: 2.6rem;
+    margin-bottom: 5rem;
+  }
+}
